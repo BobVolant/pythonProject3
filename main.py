@@ -13,7 +13,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharádasdasdasdm')
 import mysql.connector
-mydb = mysql.connector.connect(host='localhost', user='root',passwd='long187977',database='mse')
+mydb = mysql.connector.connect(host='localhost', user='root',passwd='',database='mse')
 mycur = mydb.cursor()
 # mycur.execute('USE mse')
 # mycur.execute('show databases')
